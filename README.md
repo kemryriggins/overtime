@@ -1,9 +1,11 @@
+## Overtime Application for Employees
+
 ## Key requirement: company needs documentation that salaried employees did or did not get overtime each week
 
 ## Models
 - Post -> date:date rationale:text
-- User -> Devise
-- AdminUser -> STI
+X User -> Devise
++ AdminUser -> STI
 
 ## Features:
 - Approval Workflow
