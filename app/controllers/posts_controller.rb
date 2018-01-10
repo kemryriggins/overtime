@@ -21,17 +21,17 @@ class PostsController < ApplicationController
 	end
 
 	def edit
+  	authorize @post
 	end
 
 	def update
-		if @post.update(post_params)
-			redirect_to @post, notice: 'Your post was edited successfully'
-		else
-			render :edit
-		end
-	end
+  	authorize @post
 
-	def show
+  	if @post.update(post_params)
+    	redirect_to @post, notice: 'Your post was edited successfully'
+  	else
+    	render :edit
+  	end
 	end
 
 	def destroy
