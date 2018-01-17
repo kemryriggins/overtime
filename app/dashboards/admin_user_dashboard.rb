@@ -48,4 +48,3 @@ class AdminUserDashboard < Administrate::BaseDashboard
     :type,
   ].freeze
 end
-
