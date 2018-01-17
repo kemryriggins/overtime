@@ -37,7 +37,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'devise', '~> 4.4'
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
 gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
-gem 'factory_girl_rails', '~> 4.9'
+gem 'factory_bot_rails', '~> 4.8', '>= 4.8.2'
 gem 'gritter', '~> 1.2'
 gem 'administrate', '~> 0.8.1'
 gem 'bourbon', '~> 5.0'
