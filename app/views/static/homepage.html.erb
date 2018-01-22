@@ -1,11 +1,5 @@
-<div class="jumbotron">
-	<h2>
-		Hello, Team! Want Extra $$$?
-	</h2>
-	<p>
-		Please post your Overtime requests here, check back to see if approved. You will be contacted by a Supervisor if more information is needed.
-	</p>
-	<p>
-		<a class="btn btn-success btn-success" href="/posts/new" >New Request</a>
-	</p>
-</div>
+<% if admin_types.include?(current_user.try(:type)) %>
+  <%= render 'admin' %>
+<% else %>
+  <%= render 'employee' %>
+<% end %>
