@@ -1,4 +1,8 @@
 module ApplicationHelper
+  def admin_types
+    ['AdminUser']
+  end
+
   def active?(path)
     "active" if current_page?(path)
   end
@@ -7,12 +11,8 @@ module ApplicationHelper
     status_span_generator status
   end
 
-  def admin_types
-    ['AdminUser']
-  end
-
   private
-
+    
     def status_span_generator status
       case status
       when 'submitted'
