@@ -21,4 +21,3 @@ class PostPolicy < ApplicationPolicy
     def post_approved?
       record.approved?
     end
-end

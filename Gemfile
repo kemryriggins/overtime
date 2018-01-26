@@ -21,7 +21,7 @@ gem 'jbuilder', '~> 2.5'
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'rspec-rails', '~> 3.7', '>= 3.7.2'
-  gem 'capybara', '~> 2.16', '>= 2.16.1'
+  gem 'capybara', '~> 2.17'
   gem 'database_cleaner', '~> 1.6', '>= 1.6.2'
   gem 'selenium-webdriver'
 end

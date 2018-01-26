@@ -4,30 +4,12 @@
 @import "gritter";
 @import "bourbon";
 @import "admin_homepage.css";
+@import "employee_homepage.css";
 
 .custom-nav {
-  margin-top: 15px;
+	margin-top: 15px;
 }
 
-/*
- * Base structure
- */
-
-html,
-body {
-  height: 100%;
+.btn-employee-home {
+	white-space:normal !important;
 }
-body {
-  text-align: left;
-  text-shadow: 0 .05rem .1rem rgba(0,0,0,.5);
-}
-
-h1, .h1,
-h2, .h2,
-h3, .h3,
-h4, .h4,
-h5, .h5,
-h6, .h6 {
-  font-family: 'Work Sans', sans-serif;
-}
-
