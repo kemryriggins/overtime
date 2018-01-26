@@ -17,7 +17,6 @@ namespace :notification do
     # User.all.each do |user|
     #   SmsTool.send_sms()
     # end
-  end
 
   desc "Sends mail notification to managers (admin users) each day to inform of pending overtime requests"
   task manager_email: :environment do
@@ -30,5 +29,4 @@ namespace :notification do
       end
     end
   end
-
 end
